@@ -1,0 +1,21 @@
+@import 'var';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.center{
+   padding-left: calc(50% - 600px);
+   padding-right: calc(50% - 600px);
+}
+
+@import 'main';

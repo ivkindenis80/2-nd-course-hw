@@ -1,0 +1,44 @@
+.top{
+    background: url(../img/background.jpg)center/cover no-repeat;
+    height: 100vh;
+    padding-top: 217px;
+    &__titel{
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: $white;
+        max-width: 750px;
+        margin-bottom: 32px;
+            }
+    &__text{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+        color: $white;
+        max-width: 481px;
+        margin-bottom: 44px;
+            }  
+    &__span{
+        font-weight: 700;
+    }        
+    
+    &__link{     
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: $white;
+        border-radius: 30px;
+        background: $Brown;
+        width:234px;
+        height:49px;
+        transition: background .3s;
+        &:hover{
+            background-color: $red;
+            cursor: pointer;
+            
+        }
+            }
+}
