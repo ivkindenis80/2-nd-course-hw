@@ -42,3 +42,44 @@
         }
             }
 }
+
+.main{
+    background: $darkBlue;
+}
+
+.game{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 128px 0 128px;
+    &__box{
+        width: 379px;
+        position: relative;
+        &:hover{
+            border-radius: 16px;
+            border: 3px solid 
+            #44D2FF;
+            background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+            box-sizing: border-box;
+        }
+    }
+
+    &__img{
+        width: 100%;
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    }
+
+    &__text{
+        position: absolute;
+        top: 77%;
+        left: 10%;
+        transform: translate(-10%, 0%);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px; 
+        color: $white;
+    }
+
+}
