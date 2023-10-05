@@ -44,6 +44,9 @@ a {
   font-weight: 700;
 }
 .top__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
