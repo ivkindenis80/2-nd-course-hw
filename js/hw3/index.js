@@ -70,17 +70,17 @@
 // }
 
 // Задание 8
-let  clientOS = 0;
+// let  clientOS = 0;
 // Задание 9 
-let releaseDate = prompt('Введите дату выпуска телефона');
+// let releaseDate = prompt('Введите дату выпуска телефона');
 
-if  (clientOS === 0 && releaseDate >=2015 ){
-    alert('Установите версию приложения для Android по ссылке');
-}else if (clientOS === 0 && releaseDate <= 2015){
-    alert ('установить облегченную версию приложения для Android по ссылке');
-}else if (clientOS === 1 && releaseDate >= 2015){
-    alert('Установите версию приложения iOS по ссылке');
-}else{
-    alert('Установите облегченную версию приложения для iOS по ссылке')
-}
+// if  (clientOS === 0 && releaseDate >=2015 ){
+//     alert('Установите версию приложения для Android по ссылке');
+// }else if (clientOS === 0 && releaseDate <= 2015){
+//     alert ('установить облегченную версию приложения для Android по ссылке');
+// }else if (clientOS === 1 && releaseDate >= 2015){
+//     alert('Установите версию приложения iOS по ссылке');
+// }else{
+//     alert('Установите облегченную версию приложения для iOS по ссылке')
+// }
 
