@@ -98,4 +98,34 @@ a {
   font-weight: 600;
   line-height: 32px;
   color: #fff;
+}
+
+@media (max-width: 375px) {
+  .center {
+    padding-left: calc(50% - 172px);
+    padding-right: calc(50% - 172px);
+  }
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+  }
+  .top__titel {
+    font-size: 32px;
+    text-align: center;
+  }
+  .top__text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  .game {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 32px;
+    padding: 128px 0 128px;
+  }
 }/*# sourceMappingURL=style.css.map */
