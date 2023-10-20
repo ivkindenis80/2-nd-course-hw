@@ -24,7 +24,8 @@
     <main class="main center">
         <div class="game" id="game__transition">
             <div class="game__box">
-                <a href="#" class="game__link"><img class="game__img" src="img/Game_1.jpg" alt="Game_1"></a>
+                <a href="#seasons__activ" class="game__link"><img class="game__img" src="img/Game_1.jpg"
+                        alt="Game_1"></a>
                 <p class="game__text">Игра 1</p>
             </div>
             <div class="game__box">
@@ -36,8 +37,20 @@
                 <p class="game__text">Игра 3</p>
             </div>
         </div>
-
+        <div class="seasons" id="seasons__activ">
+            <div class="seasons__box">
+                <h2 class="seasons__titel">Времена года!</h2>
+                <p class="seasons__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому
+                    времени года он относится</p>
+                <button class="seasons__btn" onclick="guessTheRiddle()">Играть!</button>
+            </div>
+            <div class=" seasons__img">
+                <!-- <span class="seasons__game"></span> -->
+                <img class="seasons__game" src="img/undraw_game 1.svg" alt="" />
+            </div>
+        </div>
     </main>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
