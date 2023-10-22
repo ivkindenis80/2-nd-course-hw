@@ -42,50 +42,50 @@
 
 // Задание 5 
 // function num(a, b) {
-//     if (+isNaN(a) || +isNaN(b)) {
+//     if (isNaN(a) || isNaN(b)) {
 //         return (`Одно или оба значения не являются числом`);
        
 //     } else {
 //         return a * b;
 //     }
 // }
-// console.log(num('a' , 5));
+// console.log(num(4 , 's'));
 
 // Задание 6 
-// function num(n) {
-//     let enteringNumber = prompt('Введите любое число');
-//     if (isNaN(enteringNumber)) {
+// function num() {
+//     num = prompt('Введите любое число');
+//     if (isNaN(num)) {
 //         console.log('Переданный параметр не является числом');
 //     } else {
-//         console.log(`${num} в кубе равняется ${enteringNumber**3}`);
+//         console.log(`${num} в кубе равняется ${num**3}`);
 //     }
 // }
 
 // num();
 
 // Задание 7
-// function getRectangleRadius() {
-//     return this.radius * this.radius;
-// }
-// function getRectangleCircles(){
-//     return this.radius * 2 ;
-// }
+function getRectangleRadius() {
+       return this.radius **2 * 3.14 
+}
+function getRectangleCircles(){
+    return this.radius * 3.14 ;
+}
 
-//     const circle1 = {
-//         radius: 50,
-//         getArea: getRectangleRadius,
-//         getPerimeter: getRectangleCircles,
-//     };
+    const circle1 = {
+        radius: 100,
+        getArea: getRectangleRadius,
+        getPerimeter: getRectangleCircles,
+    };
     
-//     const circle2 ={
-//         radius: 100,
-//         getArea: getRectangleRadius,
-//         getPerimeter: getRectangleCircles,
-//     }; 
+    const circle2 ={
+        radius: 500,
+        getArea: getRectangleRadius,
+        getPerimeter: getRectangleCircles,
+    }; 
 
-// console.log(circle1.getArea());
-// console.log(circle1.getPerimeter());
-// console.log(circle2.getArea());
-// console.log(circle2.getPerimeter());
+console.log(circle1.getArea());
+console.log(circle1.getPerimeter());
+console.log(circle2.getArea());
+console.log(circle2.getPerimeter());
 
 
