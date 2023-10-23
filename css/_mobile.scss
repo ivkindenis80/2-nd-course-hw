@@ -27,4 +27,26 @@
     gap: 32px;
     padding: 128px 0 128px;
     }
+    .seasons{
+        flex-wrap: wrap;
+        gap: 64px;
+        padding-bottom: 85px;
+        padding-top: 0;
+    &__box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-width: 343px;
+    }
+    &__titel{
+        font-size: 32px;
+        padding-top: 51px;
+    }
+    &__text{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    }
+
 }
