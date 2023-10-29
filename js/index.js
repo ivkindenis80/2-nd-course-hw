@@ -1,3 +1,4 @@
+// Игра 1
 
 function guessTheRiddle() {
     let monthNumber = Number(prompt('Введите номер месяца'));
@@ -15,3 +16,37 @@ function guessTheRiddle() {
 }
 
 alert(guessTheRiddle(monthNumber));
+
+// Игра 2
+function rememberWords(initial) {
+    let fruitBox = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    fruitBox = fruitBox.sort(() => Math.random() - 0.5);
+    alert(fruitBox);
+
+    let outgoingData = prompt('Чему равняется первый эллемент?');
+    let outgoingData2 = prompt('Чему равняется последний эллемент?');
+    
+        if (fruitBox[0].toLowerCase() === outgoingData.toLowerCase() && arr[fruitBox.length-1].toLowerCase() === outgoingData2.toLowerCase()) {
+          alert('Молодец,вы угадали, запомнили все слова!');
+          return gameStop();
+        }
+        else if (fruitBox[0].toLowerCase() === outgoingData.toLowerCase() || outgoingData2.toLowerCase() === fruitBox[fruitBox.length - 1].toLowerCase()) {
+          alert ('Вы были близки к победе!');
+          return gameStop();
+        }
+    
+        else {
+          alert ('Вы не угадали!');
+          return gameStop();
+        }
+      }
+    
+      function gameStop() {
+        let a = confirm('Хочешь продолжить игру?');
+        if (a === true) {
+          return (words());
+        }
+        else {
+          alert('Спасибо за внимание');
+        }
+      }

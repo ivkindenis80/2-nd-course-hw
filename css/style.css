@@ -146,14 +146,31 @@ a {
   cursor: pointer;
 }
 .seasons__img {
-  max-width: 485;
+  max-width: 485px;
   height: 100%;
 }
 .seasons__game {
   width: 100%;
 }
 
-@media (max-width: 375px) {
+.remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 239px 0;
+}
+.remember__box {
+  max-width: 588px;
+}
+.remember__img {
+  max-width: 481px;
+  height: 100%;
+}
+.remember__game {
+  width: 100%;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
   .center {
     padding-left: calc(50% - 172px);
     padding-right: calc(50% - 172px);
@@ -201,5 +218,22 @@ a {
   .seasons__text {
     font-size: 14px;
     line-height: 22px;
+  }
+  .seasons__img {
+    max-width: 344px;
+  }
+  .remember {
+    flex-wrap: wrap-reverse;
+    gap: 64px;
+  }
+  .remember__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 343px;
+  }
+  .remember__img {
+    max-width: 344px;
   }
 }/*# sourceMappingURL=style.css.map */
