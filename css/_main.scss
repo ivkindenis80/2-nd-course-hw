@@ -158,3 +158,26 @@
         width: 100%;
     }
 }
+
+.riddle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 276px;
+    padding-bottom: 288px;
+    background: url(../img/unsplash_iO0I6-mhDEY.jpg)center/contain no-repeat;
+}
+
+.footer{
+    background-color: $darkBlue;
+    text-align: center;
+    padding: 32px 0;
+    &__text{
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #FFF;
+    }
+}
